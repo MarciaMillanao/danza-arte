@@ -1,0 +1,73 @@
+/* Inserta tu codigo aqui */
+body{
+	font-family: "Montserrat";
+
+}
+.row{
+	max-width: 100%;
+}
+
+.titulo{
+	margin-left: 35%;
+	color:#191717;	
+}
+
+.menu{
+	list-style: none;
+}
+
+.menu a{
+	text-decoration: none;
+	float: left;
+	margin-left: 10%;
+	color:#C7BFBF;
+	font-size: 20px;
+	padding: 2%;
+}
+
+.shoes_1{
+	background: url(../img/shoes_1.jpg) no-repeat;
+	background-size: contain;
+	background-position: right;
+}
+
+form{
+	width: 450px;
+	height: 400px;
+	margin: auto;
+	background: rgba(0,0,0,0);
+	padding: 3% 8%;
+	box-sizing: border-box;
+	border-radius: 7px;
+
+}
+
+h2{
+	color:;
+	text-align: center;
+	margin: 0;
+	font-size: 30px;
+	margin-bottom: 3%;
+}
+
+input, textarea{
+	width: 100%;
+	margin-bottom:4%;
+	padding: 2%;
+	box-sizing: border-box;
+}
+
+#boton{
+	background: #16174A;
+	color:#FFFFFF;	
+}
+
+footer{
+	background: #16174A;	
+	padding: 2% 3%;
+	color:#FFFFFF;
+}
+
+footer div p{
+	text-align: left;
+}

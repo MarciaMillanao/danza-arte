@@ -1,0 +1,197 @@
+/* Inserta tu codigo aqui */
+body{
+	font-family: "Montserrat";
+
+}
+.row{
+	max-width: 100%;
+}
+
+.titulo{
+	margin-left: 35%;
+	color:#191717;	
+}
+
+.menu{
+	list-style: none;
+}
+
+.menu a{
+	text-decoration: none;
+	float: left;
+	margin-left: 10%;
+	color:#C7BFBF;
+	font-size: 20px;
+	padding: 2%;
+}
+
+.portada{
+	background: url(../img/dance_1.jpg) no-repeat;
+	background-size: cover;
+	height: 550px;
+	width: 100%;
+
+}
+
+.portada h1{
+	color:#F0E9E9;
+	font-size: 60px;
+	text-align: center;
+}
+
+.portada p{
+	color:#F0E9E9;
+	padding: 10% 20%;
+}
+
+.inscribete{
+	background-color:#273356;
+	border: none;
+	padding: 15px 32px;
+	display: inline-block;
+	margin-left: 20%;	
+}
+
+.inscribete a{
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	font-size: 16px;
+}
+
+.textura{
+	background: url(../img/textura_2.jpg);
+	height: 500px;
+	padding: 5%;
+}
+
+.textura p{
+	font-size: 24px;
+	margin-left: 5%;
+	text-align: center;
+}
+
+.tribal-uno{
+	margin-left: 40%;
+	width: 200px;
+	height: 150px;
+
+}
+
+.oferta{
+	background-color: #16174A; /* Green */
+	border: none;
+	padding: 15px 32px;
+	display: inline-block;
+	margin-left: 40%;
+
+
+}
+
+.oferta a{
+	color: white;
+	text-align: center;	
+	text-decoration: none;
+	font-size: 16px;
+}
+
+.profesor{
+	background: url(../img/instructor_4.jpg);
+	height: 500px;
+
+}
+
+.profesora{
+	background: url(../img/profesor_9.jpg);
+	height: 500px;
+	background-size: cover;
+}
+
+.instructores {
+	position: relative;
+	bottom: 50px;
+	left: 40%;
+	background-color: #16174A;
+	border: none;
+	padding: 15px 32px;
+	display: inline-block;
+}
+
+.instructores a{
+	color: white;
+	text-align: center;	
+	text-decoration: none;
+	font-size: 20px;
+}
+
+.textura-dos{
+	background: url(../img/textura_2.jpg);
+}
+
+.poema{
+	padding: 10% 20%;
+	font-size: 48px;
+	text-align: center;
+}
+.azul{
+	background: #16174A;	
+}
+
+.azul div{
+	padding: 4%;
+}
+.mapa{
+	color:#FFFFFF;
+	font-size: 16px;
+}
+
+h3{
+	color:#FFFFFF;
+	padding: 2%;
+}
+iframe{
+	margin:4% 10%;
+
+}
+.shoes{
+	background: url(../img/shoes_!.jpg) no-repeat;
+	background-size: contain;
+	background-position: right;
+}
+
+form{
+	width: 450px;
+	height: 400px;
+	margin: auto;
+	background: rgba(0,0,0,0);
+	padding: 3% 8%;
+	box-sizing: border-box;
+	border-radius: 7px;
+
+}
+
+h2{
+	color:;
+	text-align: center;
+	margin: 0;
+	font-size: 30px;
+	margin-bottom: 3%;
+}
+
+input, textarea{
+	width: 100%;
+	margin-bottom:4%;
+	padding: 2%;
+	box-sizing: border-box;
+}
+
+#boton{
+	background: #16174A;
+	color:#FFFFFF;	
+}
+
+footer{
+	background: #16174A;	
+	padding: 2% 3%;
+	color:#FFFFFF;
+}
