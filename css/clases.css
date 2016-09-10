@@ -25,11 +25,67 @@ body{
 	padding: 2%;
 }
 
-.shoes_1{
+h3{
+	text-align: center;
+}
+
+.fondo{
+	background: #ECEBEB;
+	padding: 4% 6%;
+}
+
+.ballet{
+background-image: url(../img/dance_12.jpg);	
+}
+
+.moderno{
+	 background-image: url(../img/breakdance.jpg);
+}
+.lirico{
+	background-image: url(../img/lirical-jazz.jpg);
+}
+
+.arabe{
+	background-image: url(../img/arabe.jpg);
+}
+
+.niño{
+	background-image: url(../img/little.jpg);
+}
+
+.yoga{
+	background-image: url(../img/yoga.jpg);
+}
+
+.imagen{
+	width: 31%;
+    margin: 1%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 520px;
+    padding-top: 15%;
+}
+
+.texto{
+	margin-left: 2%;
+    background-color: rgba(25, 19, 21, 0.6);
+    width: 95%;
+    padding: 3%;
+    text-align: center;
+    color:#FCF6F6;    
+}
+
+.texto h6{
+	font-size: 12px;
+}
+
+#shoes{
 	background: url(../img/shoes_1.jpg) no-repeat;
 	background-size: contain;
 	background-position: right;
 }
+
 
 form{
 	width: 450px;
@@ -62,12 +118,12 @@ input, textarea{
 	color:#FFFFFF;	
 }
 
-footer{
+.footer{
 	background: #16174A;	
-	padding: 2% 3%;
+	padding: 1% 3% 0% 3%;
 	color:#FFFFFF;
 }
 
-footer div p{
-	text-align: left;
+.footer p{
+	font-size: 12px;	
 }

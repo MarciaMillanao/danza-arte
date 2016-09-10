@@ -92,7 +92,7 @@ body{
 	color: #262121;
 }
 
-.shoes_1{
+#shoes{
 	background: url(../img/shoes_1.jpg) no-repeat;
 	background-size: contain;
 	background-position: right;
@@ -129,12 +129,13 @@ input, textarea{
 	color:#FFFFFF;	
 }
 
-footer{
+.footer{
 	background: #16174A;	
-	padding: 2% 3%;
 	color:#FFFFFF;
+	padding-bottom: 0%;
 }
 
-footer div p{
-	text-align: left;
+.footer p{
+	font-size: 12px;
+	text-align: left;	
 }
