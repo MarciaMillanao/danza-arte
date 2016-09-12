@@ -95,26 +95,33 @@ body{
 }
 
 .profesor{
-	background-image: url(../img/instructor_4.jpg);
+	background: url(../img/instructor_4.jpg);
 	height: 500px;
+	border:1px solid #151414;
 
 }
 
 .profesora{
-	background-image: url(../img/profesor_9.jpg);
+	background: url(../img/profesor_9.jpg) no-repeat;
 	height: 500px;
-	background-size: cover;
+	background-size:cover;
+	border:1px solid #151414;
+}
+.caja{
+	position: absolute;
+	width: 99%;
+	margin: 0%;	
 }
 
 .instructores {
-	position: absolute;
-
+	position: relative;
+	margin-top:30%;
 	left: 30%;
 	background-color: #16174A;
 	border: none;
-	padding: 2% 15%;
+	padding: 3% 17%;
 	
-	}
+}
 
 .instructores a{
 	color: white;
@@ -131,6 +138,11 @@ body{
 	padding: 10% 20%;
 	font-size: 48px;
 	text-align: center;
+	display: block;
+    -webkit-margin-before: 0em;
+    -webkit-margin-after: 0em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
 }
 .azul{
 	background: #16174A;	
